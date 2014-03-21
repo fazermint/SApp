@@ -1,4 +1,4 @@
-Ext.define('HelloWorld.view.Main', {
+Ext.define('Hell-O.view.Main', {
     extend: 'Ext.tab.Panel',
     xtype: 'main',
     requires: [

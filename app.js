@@ -11,7 +11,7 @@
 */
 
 Ext.application({
-    name: 'HelloWorld',
+    name: 'Hell-O',
 
     requires: [
         'Ext.MessageBox'
@@ -44,7 +44,7 @@ Ext.application({
         Ext.fly('appLoadingIndicator').destroy();
 
         // Initialize the main view
-        Ext.Viewport.add(Ext.create('HelloWorld.view.Main'));
+        Ext.Viewport.add(Ext.create('Hell-O.view.Main'));
     },
 
     onUpdated: function() {
