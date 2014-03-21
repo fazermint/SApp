@@ -11,14 +11,14 @@
 */
 
 Ext.application({
-    name: 'Hell-O',
+    name: 'Hell-O-Sender',
 
     requires: [
         'Ext.MessageBox'
     ],
 
     views: [
-        'Main'
+        'Main', 'Home', 'Hell', 'Drei'
     ],
 
     icon: {
@@ -44,7 +44,7 @@ Ext.application({
         Ext.fly('appLoadingIndicator').destroy();
 
         // Initialize the main view
-        Ext.Viewport.add(Ext.create('Hell-O.view.Main'));
+        Ext.Viewport.add(Ext.create('Hell-O-Sender.view.Main'));
     },
 
     onUpdated: function() {
