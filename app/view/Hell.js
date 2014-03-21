@@ -40,6 +40,8 @@ Ext.define('Hell-O-Sender.view.Hell',{
                                {
                                    xtype: 'button',
                                    text: 'Ab in die Hölle ... ]:->',
+                                   width: 250,
+                                   margin: 'auto',
                                    ui: 'confirm',
                                    handler: function() {
                                        this.up('formpanel').submit();
