@@ -3,23 +3,26 @@ Ext.define('Hell-O-Sender.view.Hell',{
 	xtype: 'hell',
 	
 	config: {
-		title: 'Das TOR',
-        iconCls: 'delete',
+		title: 'Zur Hölle',
+        iconCls: 'arrow_down',
         
         xtype: 'formpanel',
         layout: 'vbox',	
+		scrollable: true,
 
         items: [
                {
 			xtype: 'titlebar',
-            title: 'Zu spät mein Lieber ...!',
+            title: 'Hell-O-Sender',
             docked: 'top',
+            style: 'background: #B62828'
+            
                },
              
                 	   
                                {
                                    xtype: 'fieldset',
-                                   title: 'Jetzt bist DU dran.',
+                                   title: 'Jetzt ist DEINE Chance gekommen...!',
                                    instructions: 'Wenn schickst DU in die Hölle?',
                                    height: 285,
                                    items: [
@@ -42,7 +45,7 @@ Ext.define('Hell-O-Sender.view.Hell',{
                                    text: 'Ab in die Hölle ... ]:->',
                                    width: 250,
                                    margin: 'auto',
-                                   ui: 'confirm',
+                                   ui: 'decline',
                                    handler: function() {
                                        this.up('formpanel').submit();
                                    }

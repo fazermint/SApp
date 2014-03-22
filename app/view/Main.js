@@ -5,9 +5,11 @@ Ext.define('Hell-O-Sender.view.Main', {
     config: {
         tabBarPosition: 'bottom',
 
+
         items: [
             {
-            	xtype: 'home'
+            	xtype: 'home',
+
             },
             {
             	xtype: 'hell'
